@@ -4,3 +4,14 @@ body {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
 }
+
+
+html,
+body,
+app-root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* Opcional: evita el scroll si es deseado */
+}

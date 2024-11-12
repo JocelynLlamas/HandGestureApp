@@ -1,12 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { HandDetectionComponent } from './shared/features/hand-detection/hand-detection.component';
-import { HomeComponent } from './shared/pages/home/home.component';
+import { RouterModule, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [ HandDetectionComponent, HomeComponent, RouterOutlet],
+  imports: [RouterOutlet, RouterModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
