@@ -5,7 +5,7 @@ import { HandDetectionComponent } from './hand-detection/hand-detection.componen
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HandDetectionComponent],
+  imports: [ HandDetectionComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
