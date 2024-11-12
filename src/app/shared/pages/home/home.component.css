@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100%;
     position: relative;
-    background-image: url('/images/robot.png');
+    background-image: url('../../../assets/robot.png');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
